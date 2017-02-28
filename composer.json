@@ -1,5 +1,5 @@
 {
-    "name": "lostcause/laravel-sentiment-analysis",
+    "name": "antoineaugusti/laravel-sentiment-analysis",
     "description": "A Laravel wrapper that performs sentiment analysis over an English sentence",
     "keywords": ["laravel", "framework", "sentiment analysis", "sentiment", "analysis", "Augusti", "Antoine Augusti", "AntoineAugusti"],
     "license": "Apache-2.0",

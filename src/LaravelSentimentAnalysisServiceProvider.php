@@ -12,9 +12,9 @@ class LaravelSentimentAnalysisServiceProvider extends ServiceProvider
      * @return void
      */
     public function register()
-    {
-        $this->app['sentimentanalysis'] = $this->app->share(function ($app) {
-            return new SentimentAnalysis();
-        });
+    {  
+        $this->app->singleton('sentimentanalysis', function () {
+            return $this->app->make('Antoineaugusti\LaravelSentimentAnalysis\SentimentAnalysis');
+        });        
     }
 }

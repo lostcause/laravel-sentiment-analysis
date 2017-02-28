@@ -1,5 +1,5 @@
 {
-    "name": "antoineaugusti/laravel-sentiment-analysis",
+    "name": "lostcause/laravel-sentiment-analysis",
     "description": "A Laravel wrapper that performs sentiment analysis over an English sentence",
     "keywords": ["laravel", "framework", "sentiment analysis", "sentiment", "analysis", "Augusti", "Antoine Augusti", "AntoineAugusti"],
     "license": "Apache-2.0",
@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.0",
+        "illuminate/support": "~5.4",
         "jwhennessey/phpinsight": "~2.0"
     },
     "require-dev": {
